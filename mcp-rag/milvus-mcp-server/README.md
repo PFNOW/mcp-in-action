@@ -28,7 +28,7 @@ cd milvus-mcp-server
 ```bash
 docker-compose up -d
 
-docker compose -f docker-compose-base.yml up -d --force-recreate
+docker-compose -f docker-compose.yml up -d --force-recreate
 ```
 
 服务启动后，MCP 服务器将在 http://localhost:8080 上可用。
